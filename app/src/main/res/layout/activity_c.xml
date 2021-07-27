@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".c">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/questionsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="How this quiz works!!                select one option"
+            android:textColor="@android:color/black"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:padding="20dp"
+            android:text="option1"
+            android:layout_marginLeft="100dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="100dp"
+            android:text="option2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="100dp"
+            android:text="option3" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="100dp"
+            android:padding="20dp"
+            android:text="option4" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
